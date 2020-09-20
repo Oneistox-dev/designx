@@ -15,13 +15,25 @@ npm install --save designx
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'designx'
-import 'designx/dist/index.css'
+import { Grid, Col } from 'designx'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = () => {
+  return (
+    <Grid>
+      <Col col='6'>
+        Create React Library Example{' '}
+        <span role='img' aria-label='emoji'>
+          😄
+        </span>
+      </Col>
+      <Col col='6'>
+        Hey
+        <span role='img' aria-label='emoji'>
+          😄
+        </span>
+      </Col>
+    </Grid>
+  )
 }
 ```
 
