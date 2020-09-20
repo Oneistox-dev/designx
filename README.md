@@ -1,6 +1,6 @@
 # designx
 
-> frontend design tool created using tailwind cssn tool
+> frontend design tool created using tailwind css tool
 
 [![NPM](https://img.shields.io/npm/v/designx.svg)](https://www.npmjs.com/package/designx) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
